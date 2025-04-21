@@ -71,7 +71,7 @@ proyecto-back-zurich/
  ```
 
 ## Cómo Ejecutar las Pruebas
-1. Asegúrate de haber instalado las dependencias con npm install.
+1. Asegúrate de haber instalado las dependencias con npm **`install`**.
    
 2. Ejecuta las pruebas con el siguiente comando:
 
