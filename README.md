@@ -87,3 +87,5 @@ El proyecto está configurado para generar un reporte en formato HTML, que inclu
 1. Al ejecutar las pruebas con **`npm test`**, se generará un archivo **`cucumber_report.json`**.
 
 
+
+![Mi imagen desde Imgur](https://i.imgur.com/rXeK3pJ.png)
