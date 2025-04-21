@@ -1,0 +1,139 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "crear-un-usuario-utilizando-post;agregar-al-usuario-manolo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Agregar al usuario Manolo",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que tengo los datos del usuario \"Manolo\"",
+            "match": {
+              "location": "features\\step_definitions\\createUserSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2490899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "realizo una llamada POST al endpoint \"/users\"",
+            "match": {
+              "location": "features\\step_definitions\\createUserSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 501018399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "el código de estado de la respuesta debe ser \"201\"",
+            "match": {
+              "location": "features\\step_definitions\\createUserSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1129500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "el nombre del usuario en la respuesta debe ser \"Manolo\"",
+            "match": {
+              "location": "features\\step_definitions\\createUserSteps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "verificar que el valor testingvalue es un booleano",
+            "match": {
+              "location": "features\\step_definitions\\createUserSteps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 626000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "crear-un-usuario-utilizando-post;verificar-código-de-estado-y-que-la-respuesta-sea-un-array",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verificar código de estado y que la respuesta sea un array",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "realizo una llamada GET al endpoint \"/users\"",
+            "match": {
+              "location": "features\\step_definitions\\createUserSteps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128113699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "el código de estado de la respuesta debe ser \"200\"",
+            "match": {
+              "location": "features\\step_definitions\\createUserSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 510199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "la respuesta debe ser un array",
+            "match": {
+              "location": "features\\step_definitions\\createUserSteps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "crear-un-usuario-utilizando-post",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Crear un usuario utilizando POST",
+    "tags": [],
+    "uri": "features\\createUser.feature"
+  }
+]
